@@ -1,0 +1,54 @@
+body{
+  font-family: 'Poppins';
+}
+.priv_nav {
+    position:sticky;
+    top: 0;
+}
+.priv_logo {
+  height: 35px;
+  /* width: 35px; */
+  margin-top: 30px;
+  margin-left: 60px;
+}
+.frame_1 {
+  height: 90vh;
+display: flex;
+justify-content: center;
+align-items: center;
+  gap: 100px;
+}
+.left_container {
+  width: 30%;
+  display: flex;
+  justify-content: end;
+}
+.frame_1_image {
+  height: 300px;
+}
+.right_container {
+  width: 40%;
+}
+.c_1 {
+  font-size: 43px;
+  margin-bottom: 30px;
+}
+.c_2 {
+  font-size: 16px;
+}
+@media screen and (max-width:1000px) {
+.frame_1{
+  flex-direction: column;
+  height: 100vh;
+}
+.left_container{
+  justify-content: center;
+  width: 90%;
+}
+.right_container{
+  width: 90%;
+}
+.frame_1_image {
+  height: 250px;
+}
+}

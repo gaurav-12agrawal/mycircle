@@ -1,0 +1,131 @@
+
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+
+    font-family: 'poppins';
+}
+.privacy_nav {
+position: absolute;
+top: 0;
+left: 0;
+}
+.priv_logo {
+  height: 35px;
+
+  margin-top: 30px;
+  margin-left: 60px;
+}
+.container_1{
+    background-image: url(images/green-bg.png);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    object-fit: cover;
+    background-size: cover;
+    height: 100vh;
+   
+    color:white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: starts;
+}
+.first{
+    font-size: 40px;
+    font-weight: 300;
+    width: 80%;
+    margin-bottom: 50px;
+}
+.bold{
+    font-weight: 600;
+}
+.second{
+    width: 80%;
+    font-size: 20px;
+
+}
+.container_2{
+display: flex;
+justify-content: center;
+align-items: center;
+text-align: center;
+flex-direction: column;
+height: 100vh;
+}
+.container_2_first{
+    margin-top: 0px;
+    font-size: 50px;
+    margin-bottom: 50px;
+    font-weight: 500;
+}
+.container_2_img{
+    height: 400px;
+    width: 400px;
+    
+}
+.container_3{
+    display: flex;
+    flex-direction: column;
+    margin-top: 100px;
+    align-items: center;
+    text-align: center;
+    height: 50vh;
+}
+.container_3_first{
+    font-size: 50px;
+    font-weight: 600;
+
+}
+.button_box{
+ margin-top: 40px; 
+ display: flex;  
+ gap: 50px;
+}
+.container_3_second{
+    padding: 10px;
+    font-size: 20px;
+    font-weight: 300;
+    border-radius: 6px;
+    
+}
+.container_3_third{
+    padding: 10px;
+    font-size: 20px;
+    font-weight: 300;
+    border-radius: 6px;
+}
+.container_3_second:hover{
+    background-color: black;
+    color: white;
+    transition: 300ms ease-in-out ;
+    cursor: pointer;
+}
+.container_3_third:hover{
+    background-color: black;
+    color: white;
+    transition: 300ms ease-in-out ;
+    cursor: pointer;
+}
+@media screen and (max-width:1223px) {
+    .container_3_first{
+        width: 80%;
+    }
+    .container_2_first{
+        width: 80%;
+    }
+  }
+@media screen and (max-width:490px) {
+    .button_box{
+        flex-direction: column;
+        padding-bottom: 40px;
+    }
+    
+  }
+@media screen and (max-width:414px) {
+.first{
+    margin-top: 200px;
+}
+  }
